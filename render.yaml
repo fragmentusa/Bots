@@ -7,12 +7,12 @@ services:
     startCommand: uvicorn gifttransfer_bot:app --host 0.0.0.0 --port $PORT
     healthCheckPath: /
     envVars:
-      - key: 8914848804:AAEA5OzKCyAOVo1B8trDGD-JP57d3FLEe0w
-        sync: false
-      - key: Kf4983fj9ifkjdklsdjkl2djui0io3rjfioj2548gjuj09fj210fj
-        sync: false
-      - key: @GiftTransferAutoRobot
-        sync: false
+      - key: BOT_TOKEN
+        sync: 8914848804:AAEA5OzKCyAOVo1B8trDGD-JP57d3FLEe0w
+      - key: ACCESS_CODE
+        value: "Kf4983fj9ifkjdklsdjkl2djui0io3rjfioj2548gjuj09fj210fj"
+      - key: BOT_USERNAME
+        value: "@GiftTransferAutoRobot"
       - key: WEBHOOK_SECRET
         generateValue: true
       - key: DB_PATH
