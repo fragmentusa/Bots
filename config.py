@@ -6,11 +6,11 @@
 # ====================================================
 
 # Токен от @BotFather, например "123456789:AAH...."
-BOT_TOKEN = "ВСТАВЬ_ТОКЕН_СЮДА"
+BOT_TOKEN = "8914848804:AAEA5OzKCyAOVo1B8trDGD-JP57d3FLEe0w"
 
 # Секретный код доступа: его отправляешь боту в личку, чтобы получить право
 # создавать предложения. Придумай длинный, например "x7Kp-2026-qLm9-zeta"
-ACCESS_CODE = "ВСТАВЬ_СЕКРЕТНЫЙ_КОД_СЮДА"
+ACCESS_CODE = "Kf4983fj9ifkjdklsdjkl2djui0io3rjfioj2548gjuj09fj210fj"
 
 # Username бота без @
-BOT_USERNAME = "ВСТАВЬ_USERNAME_БОТА"
+BOT_USERNAME = "GiftTransferAutoRobot"
